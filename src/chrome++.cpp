@@ -12,7 +12,7 @@ HMODULE hInstance;
 #include "hijack.h"
 #include "utils.h"
 #include "patch.h"
-#include "TabBookmark.h"
+// #include "TabBookmark.h"
 #include "portable.h"
 #include "PakPatch.h"
 #include "appid.h"
@@ -29,8 +29,8 @@ void ChromePlus()
     // 便携化补丁
     MakeGreen();
 
-    // 标签页，书签，地址栏增强
-    TabBookmark();
+//     // 标签页，书签，地址栏增强
+//     TabBookmark();
 
     // 给pak文件打补丁
     PakPatch();
